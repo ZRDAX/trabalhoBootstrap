@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+body{
+
+    background-color: #09040f;
+    background-image: linear-gradient(360deg,#09040f,rgba(0,0,0,0.5)),linear-gradient(140deg,#ee0c0c,#ff9659 22%,#D73802 38%,#2B2B2B 57%,#011c34 75%,#000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 128px;
+}
+
+.imgh{
+    height: 50px;
+}
+
+.lss{
+    padding: 28px 16px;
+}
+
+.intensTextonav{
+    color: #ff9659;
+    border-bottom: 2px solid #ff9659;
+    text-shadow: 0 1px 6px rgb(237 198 255 / 50%);
+    border-radius: 0px ;
+}
+.intensTextonav:hover{
+    color: #ff9659;  
+}
+
+.intensTextonavs{
+    color: #fff;
+    text-shadow: 0 1px 6px rgb(237 198 255 / 50%);
+    border-radius: 0px;
+}
+.intensTextonavs:hover{
+    color: #ff9659;  
+}
+
+.heading-hero {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: termina demi,sans-serif;
+    color: #fff;
+    font-size: 64px;
+    line-height: 120%;
+}
+
+.heading-3.hero-h3 {
+    max-width: 500px;
+    margin-right: auto;
+    text-align: left;
+}
+
+.cta-button.hero-button {
+    min-width: 160px;
+    margin-right: 24px;
+    margin-left: 0;
+    padding: 16px 24px;
+    text-align: center;
+}
+
+.paragraph.hero-paragraph {
+    width: 296px;
+}
+
+.paragraph {
+    font-family: work sans,sans-serif;
+    color: #ff9659;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
